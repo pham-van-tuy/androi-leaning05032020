@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/btnFuntionTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Funtion test"/>
+        <Button
+            android:id="@+id/btnNullSafetyTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Null Safety"/>
+        <Button
+            android:id="@+id/btnClassesTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Classes Test"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnGenericsTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Generics Test"/>
+        <Button
+            android:id="@+id/btnWhenTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="When Test"/>
+        <Button
+            android:id="@+id/btnLoopTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Loop Test"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnRangerTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ranger Test"/>
+        <Button
+            android:id="@+id/btnEqualTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Equal Test"/>
+        <Button
+            android:id="@+id/btnConditionalExpressionTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Conditional Test"/>
+    </LinearLayout>
+
+
+</LinearLayout>
