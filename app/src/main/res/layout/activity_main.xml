@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
+
+    >
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:orientation="vertical">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -16,7 +23,7 @@
             android:id="@+id/btnFuntionTest"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Funtion test"/>
+            android:text="Funtion"/>
         <Button
             android:id="@+id/btnNullSafetyTest"
             android:layout_width="wrap_content"
@@ -26,7 +33,7 @@
             android:id="@+id/btnClassesTest"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Classes Test"/>
+            android:text="Classes"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -66,8 +73,241 @@
             android:id="@+id/btnConditionalExpressionTest"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Conditional Test"/>
+            android:text="Conditional"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnDataClassesTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DataClass"/>
+        <Button
+            android:id="@+id/btnEnumClassTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EnumClass"/>
+        <Button
+            android:id="@+id/btnSealedClassesTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sealed"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnObjKeywordTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ObjKeyword"/>
+        <Button
+            android:id="@+id/btnHightOrderFunctionTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hightFunc"/>
+        <Button
+            android:id="@+id/btnLamdaFunTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LamdaFunc"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnListTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="List Test"/>
+        <Button
+            android:id="@+id/btnSetTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Set Test"/>
+        <Button
+            android:id="@+id/btnMAPTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MAP Test"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnFillterTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fillter Test"/>
+        <Button
+            android:id="@+id/btnmapTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="map Test"/>
+        <Button
+            android:id="@+id/btnanyallnoneTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="any/all/none"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnFindLastTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="anyallFindLast"/>
+        <Button
+            android:id="@+id/btnFirstLastTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FirstLast"/>
+        <Button
+            android:id="@+id/btnCountTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Count Test"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnassociateBy_groupByTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="associateBygroup"/>
+        <Button
+            android:id="@+id/btnPartitionTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Partition"/>
+        <Button
+            android:id="@+id/btnFlatMapTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Flatmap"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnOrNullTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OrNull Test"/>
+        <Button
+            android:id="@+id/btnSortedTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sorted Test"/>
+        <Button
+            android:id="@+id/btnMapElementTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Map element"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnZipTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zip Test"/>
+        <Button
+            android:id="@+id/btngetOrElseTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="getOrElse Test"/>
+        <Button
+            android:id="@+id/btnletKotlinLangTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="letKotlin Test"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnrunKotlinLangTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RunKotlin"/>
+        <Button
+            android:id="@+id/btnwithKotlinLangTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="withKotlin"/>
+        <Button
+            android:id="@+id/btnapplyKotlinLangTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="applyKotlin"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnAlsoKotlinLangTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Also"/>
+        <Button
+            android:id="@+id/btnDelegationPattermTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DelegationPatterm"/>
+        <Button
+            android:id="@+id/btnDelegationProptiesTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delegation"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnNamedArgumentsTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NameArguments"/>
+        <Button
+            android:id="@+id/btnStringTemplateTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="StrTemplate"/>
+        <Button
+            android:id="@+id/btnDestructuringTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Destructur"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnSmartCastsTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SmartCasts"/>
+
     </LinearLayout>
 
 
 </LinearLayout>
+</ScrollView>
